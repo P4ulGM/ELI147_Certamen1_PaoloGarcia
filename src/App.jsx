@@ -1,14 +1,14 @@
-import { LocalizationProvider } from '@mui/x-date-pickers';
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+import GuerreroForm from "./components/GuerreroForm"
+import GuerreroContainer from "./containers/GuerreroContainer"
+import Header from "./templates/Header"
 
 function App() {
 
   return (
-    // <LocalizationProvider dateAdapter={AdapterDayjs}>
       <>
-        <h1>Certamen 1</h1>
+        <Header></Header>
+        <GuerreroContainer></GuerreroContainer>
       </>
-    // </LocalizationProvider>
   )
 }
 
